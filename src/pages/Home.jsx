@@ -1,4 +1,5 @@
-import { projects, skills } from "../data/data";
+import { projects, skills, experiences } from "../data/data";
+import ExperienceCard from "../components/ExperienceCard";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -42,9 +43,9 @@ export default function Home() {
               </p>
             </div>
             <div className="col-lg-5 text-center">
-              <img 
-                src="/images/portfolio.jpg" 
-                alt="Karunya" 
+              <img
+                src="/images/portfolio.jpg"
+                alt="Karunya"
                 className="profile-img img-fluid"
               />
             </div>
@@ -73,6 +74,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Experience & Achievements Section - NEW */}
+      <section id="experience" className="py-5">
+        <div className="container">
+          <h2 className="text-success mb-5">Experience & Achievements</h2>
+          <div className="experience-container">
+            {experiences.map(experience => (
+              <ExperienceCard key={experience.id} experience={experience} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Projects Section */}
       <section id="projects" className="py-5">
         <div className="container">
@@ -81,16 +94,16 @@ export default function Home() {
             {projects.map(project => (
               <div className="col-lg-4 col-md-6" key={project.id}>
                 <div className="card h-100">
-                  <img 
-                    src={project.image} 
-                    className="card-img-top" 
-                    alt={project.title} 
+                  <img
+                    src={project.image}
+                    className="card-img-top"
+                    alt={project.title}
                   />
                   <div className="card-body d-flex flex-column">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text mb-4">{project.description}</p>
-                    <Link 
-                      to={`/project/${project.id}`} 
+                    <Link
+                      to={`/project/${project.id}`}
                       className="btn btn-outline-success mt-auto"
                     >
                       View Details
@@ -111,23 +124,23 @@ export default function Home() {
             I'm currently looking for new opportunities. Feel free to reach out!
           </p>
           <div className="social-icons mt-4">
-            <a 
-              href="https://www.linkedin.com/in/karunya-aravapalli" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/karunya-aravapalli"
+              target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
             </a>
-            <a 
-              href="https://github.com/Karunya-3" 
-              target="_blank" 
+            <a
+              href="https://github.com/Karunya-3"
+              target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
             >
               <i className="fab fa-github"></i>
             </a>
-            <a 
+            <a
               href="mailto:karunyaaravapalli@gmail.com"
               aria-label="Email"
             >

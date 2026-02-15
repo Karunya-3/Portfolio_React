@@ -53,3 +53,22 @@ export const skills = {
   Database: ["MySQL"],
   "Soft Skills": ["Problem Solving", "Teamwork", "Communication", "Adaptability"]
 };
+export const experiences = [
+  {
+    id: 1,
+    title: "AI-ML Intern",
+    company: "NSTL (DRDO)",
+    period: "May 2024 - July 2024",
+    image: "/images/nstl-logo.png", // Add your logo image
+    responsibilities: [
+      "Developed IV&V automation tool for document comparison and observation report generation",
+      "Worked with React and JavaScript to build responsive web interfaces",
+      "Collaborated with team members to streamline testing processes"
+    ],
+    achievements: [
+      { icon: "🏆", text: "Successfully delivered automation tool ahead of schedule" },
+      { icon: "⭐", text: "Received appreciation from project guide for efficient work" },
+      { icon: "📊", text: "Reduced manual document comparison time by 60%" }
+    ]
+  },
+];
