@@ -56,7 +56,7 @@ export const skills = {
 export const experiences = [
   {
     id: 1,
-    title: "AI-ML Intern",
+    title: "Intern",
     company: "NSTL (DRDO)",
     period: "May 2024 - July 2024",
     image: "/images/nstl-logo.png", // Add your logo image
@@ -71,4 +71,40 @@ export const experiences = [
       { icon: "📊", text: "Reduced manual document comparison time by 60%" }
     ]
   },
+  {
+    id: 2,
+    title: "Intern",
+    company: "Infosys Springboard",
+    period: "October 2025 - December 2025",
+    image: "/images/infosys-logo.png", // Add your logo image
+    responsibilities: [
+      "Built semantic search engine for YouTube content using YouTube Data API v3 and vector database",
+      "Implemented data cleaning and embedding generation for efficient semantic video search",
+      "Developed FAST API backend and integrated Gemini API for intelligent video summarization",
+      "Created responsive React frontend for seamless user interaction with search results"
+    ],
+    achievements: [
+      { icon: "🔍", text: "Engineered semantic search system using vector embeddings for intelligent YouTube content discovery" },
+      { icon: "⚡", text: "Built high-performance FAST API backend with integrated Gemini API for real-time video summarization" },
+      { icon: "📊", text: "Successfully processed and vectorized YouTube video data enabling context-aware semantic searches" }
+    ]
+  },
+  {
+    id: 3,
+    title: "Open Source Contributor",
+    company: "Code Social",
+    period: "November 2025 - January 2026",
+    image: "/images/codesocial-logo.png", // Add your logo image
+    responsibilities: [
+      "Merged 10+ pull requests in active open source project development",
+      "Collaborated with global developers to improve code quality and feature implementation",
+      "Participated in code reviews and issue triage for project maintenance"
+    ],
+    achievements: [
+      { icon: "🔄", text: "Successfully merged 10+ pull requests into production codebase" },
+      { icon: "🤝", text: "Collaborated with maintainers to enhance project functionality and documentation" },
+      { icon: "🌍", text: "Contributed to global open source community with consistent, quality contributions" }
+    ]
+  }
+
 ];
