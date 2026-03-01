@@ -1,5 +1,6 @@
-import { projects, skills, experiences } from "../data/data";
+import { projects, skills, experiences, codingProfilesCommunity } from "../data/data";
 import ExperienceCard from "../components/ExperienceCard";
+import CodingProfileCard from "../components/CodingProfileCard";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -74,7 +75,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Experience & Achievements Section - NEW */}
+      {/* Experience & Achievements Section */}
       <section id="experience" className="py-5">
         <div className="container">
           <h2 className="text-success mb-5">Experience & Achievements</h2>
@@ -115,6 +116,25 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      
+
+      {/* Coding Profiles & Community Section */}
+      <section id="coding-profiles" className="py-5">
+        <div className="container">
+          <h2 className="text-success mb-5">Coding Profiles & Community</h2>
+          <div className="profiles-wrapper">
+            {codingProfilesCommunity.map(category => (
+              <CodingProfileCard
+                key={category.id}
+                category={category.category}
+                items={category.items}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
 
       {/* Contact Section */}
       <section id="contact" className="py-5 text-center">

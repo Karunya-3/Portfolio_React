@@ -108,3 +108,79 @@ export const experiences = [
   }
 
 ];
+
+
+
+export const codingProfilesCommunity = [
+  {
+    id: 1,
+    category: "Coding Profiles",
+    items: [
+      {
+        title: "LeetCode ",
+        platform: "LeetCode",
+        description: "Solved various problems across multiple difficulty levels",
+        icon: "⚔️",
+        profileUrl: "https://leetcode.com/u/karunya_3/",
+        stats: "200+ problems solved",
+        badge: "/images/200.gif" 
+      },
+      {
+        title: "HackerRank",
+        platform: "HackerRank",
+        description: "5⭐ in Python | Certified in SQL, Python",
+        icon: "🏆",
+        profileUrl: "https://www.hackerrank.com/profile/karunyaaravapal1",
+        stats: "200+ points in Python"
+      },
+      {
+        title: "GeeksforGeeks",
+        platform: "GFG",
+        description: "Institute Rank #59 | Coding Score 500+",
+        icon: "💻",
+        profileUrl: "#",
+        stats: "100+ problems solved"
+      }
+    ]
+  },
+
+  {
+    id: 2,
+    category: "Community Involvement",
+    items: [
+      {
+        title: "Edumoon Student Clubs",
+        role: "Core Team Member",
+        description: "EdTech startup focused on student engagement and skill development",
+        icon: "👨‍💻",
+        achievements: [
+          "Conducted coding and general quiz sessions",
+          "Coordinated with culturals"
+        ],
+        period: "2023 - Present"
+      },
+      {
+        title: "Codeiam Chapter",
+        role: "Women Techies Lead",
+        description: "Student led chapter of Codeiam, a global coding community for students",
+        icon: "💡",
+        achievements: [
+          "Conducted coding sessions on DSA",
+          "Managed technical events"
+        ],
+        period: "2023 - 2025"
+      },
+      {
+        title: "Open Source Contributor",
+        role: "Contributor",
+        description: "Active contributor to open source projects",
+        icon: "🌐",
+        achievements: [
+          "Contributed to 3+ repositories",
+          "Submitted 10+ pull requests"
+        ],
+        profileUrl: "https://github.com/Karunya-3"
+      }
+    ]
+  }
+];
