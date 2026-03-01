@@ -24,35 +24,36 @@ export default function Home() {
         </div>
       </section>
 
+      
       {/* About Section */}
-      <section id="about" className="py-5">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
-              <h2 className="text-success mb-4">About Me</h2>
-              <p className="mb-3">
-                Hello! I'm Karunya, a passionate developer and AI/ML enthusiast.
-              </p>
-              <p className="mb-3">
-                I'm a B.Tech Information Technology student at Andhra University, passionate about building responsive and modern web applications and developing AI/ML solutions.
-              </p>
-              <p className="mb-3">
-                I work with technologies like React, Flask to create efficient digital solutions. I have a good foundation in Data Structures and Algorithms and actively apply them in problem-solving. I leverage a robust understanding of ML and AI to successfully integrate intelligent systems that drive results.
-              </p>
-              <p>
-                Quick to learn and adapt, I thrive on turning ideas into user-friendly, impactful and integrated applications. My goal is to grow as a developer while contributing to meaningful tech solutions and developing intelligent systems.
-              </p>
-            </div>
-            <div className="col-lg-5 text-center">
-              <img
-                src="/images/portfolio.jpg"
-                alt="Karunya"
-                className="profile-img img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+<section id="about" className="py-5">
+  <div className="container">
+    <div className="row align-items-center">
+      <div className="col-lg-7">
+        <h2 className="text-success mb-4">About Me</h2>
+        <p className="mb-3" style={{ color: '#ffffff', fontWeight: '300', fontSize: '1.1rem' }}>
+          Hello! I'm Karunya, a passionate developer and AI/ML enthusiast.
+        </p>
+        <p className="mb-3" style={{ color: '#ffffff', fontWeight: '300', fontSize: '1.1rem' }}>
+          I'm a B.Tech Information Technology student at <b>Andhra University</b>, passionate about building responsive and modern web applications and developing AI/ML solutions.
+        </p>
+        <p className="mb-3" style={{ color: '#ffffff', fontWeight: '300', fontSize: '1.1rem' }}>
+          I work with technologies like React, Flask,<b> MERN </b> to create efficient digital solutions. I have a good foundation in <b>Data Structures and Algorithms</b> and actively apply them in problem-solving. I leverage a robust understanding of ML and AI to successfully integrate intelligent systems that drive results.
+        </p>
+        <p style={{ color: '#ffffff', fontWeight: '300', fontSize: '1.1rem' }}>
+          Quick to learn and adapt, I thrive on turning ideas into user-friendly, impactful and integrated applications. My goal is to grow as a developer while contributing to meaningful tech solutions and developing intelligent systems.
+        </p>
+      </div>
+      <div className="col-lg-5 text-center">
+        <img
+          src="/images/portfolio.jpg"
+          alt="Karunya"
+          className="profile-img img-fluid"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Skills Section */}
       <section id="skills" className="py-5">
