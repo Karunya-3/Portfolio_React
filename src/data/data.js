@@ -105,7 +105,24 @@ export const experiences = [
       { icon: "🤝", text: "Collaborated with maintainers to enhance project functionality and documentation" },
       { icon: "🌍", text: "Contributed to global open source community with consistent, quality contributions" }
     ]
-  }
+  },
+  {
+    id: 4,
+    title: "AI Intern",
+    company: "EduLinkUp",
+    period: "Dec 2025 - Feb 2026",
+    image: "/images/edulinkup-logo.png", 
+    responsibilities: [
+      "Developed an AI Interview Coach capstone project leveraging LLMs and Generative AI to deliver real-time, personalized interview feedback",
+      "Worked with LLM APIs, Vector Databases, and RAG pipelines to build end-to-end production AI workflows",
+      "Designed intelligent features to improve user readiness and streamline the mock interview process"
+    ],
+    achievements: [
+      { icon: "🤖", text: "Successfully built and deployed an AI Interview Coach using cutting-edge Generative AI" },
+      { icon: "⚡", text: "Implemented RAG pipelines and Vector Databases for highly accurate, real-time feedback" },
+      { icon: "🚀", text: "Gained comprehensive, hands-end exposure to production-grade AI system architecture" }
+    ]
+},
 
 ];
 
